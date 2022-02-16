@@ -29,8 +29,8 @@ define config.version = "1.0"
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
-""")
+define gui.about = _p(""" A reboot of a game I made with my friends back when I was 12. \n I'm rebooted because I wanted to make a game that was more fun than the original. \n I hope you enjoy it!""")
+
 
 
 ## A short name for the game used for executables and directories in the built
@@ -84,12 +84,12 @@ define config.intra_transition = dissolve
 
 ## A transition that is used after a game has been loaded.
 
-define config.after_load_transition = None
+define config.after_load_transition = dissolve
 
 
 ## Used when entering the main menu after the game has ended.
 
-define config.end_game_transition = None
+define config.end_game_transition = dissolve 
 
 
 ## A variable to set the transition used when the game starts does not exist.
@@ -120,7 +120,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## Controls the default text speed. The default, 0, is infinite, while any other
 ## number is the number of characters per second to type out.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 10
 
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0
@@ -207,3 +207,12 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+
+define build.itch_project = "crindere-dev/tadl"
+init python:
+    def callback(event, **kwargs):
+        if event == "show":
+            renpy.music.play("narrator_text_scroll.wav", channel="sound", loop=True)
+        elif event == "slow_done" or event == "end":
+            renpy.music.stop(channel="sound")
+$ loc = Character(what_font="cour.ttf", callback=callback)

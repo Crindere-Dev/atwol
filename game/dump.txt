@@ -1,0 +1,19 @@
+label start:
+    menu:
+        "Which Gender?"
+        "Male":
+            $ Her = "His"
+            $ her = "his"
+            $ She = "He"
+            $ she = "he"
+            $ Herself = "Himself"
+            $ herself = "herself"
+        "Female":
+            pass
+        "Gender neutral":
+            $ Her = "Them"
+            $ her = "them"
+            $ She = "They"
+            $ she = "they"
+            $ Herself = "Themself"
+            $ herself = "themself"
