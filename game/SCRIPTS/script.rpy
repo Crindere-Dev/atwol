@@ -38,11 +38,9 @@ label gender:
     
 call screen gender with dissolve
 
-python:
-    ui.interact()
-
 
 label girl:
+    scene bg mirror with dissolve
     "You're a girl?"
     menu:
         
@@ -106,6 +104,15 @@ scene bg bus with dissolve
 "You barely make it to the bus..."
 "You gasp for air as you try to find a seat on the full bus. You sit down at a window seat and plug in your headphones as the bus heads to school."
 
+scene black with dissolve
 $ renpy.movie_cutscene('bago.ogv') 
 
+scene black with dissolve
+"You hop of the bus and start walking into the campus."
+
+if alex == True:
+    jump alexroute
+
+if sarah == True:
+    jump sarahroute
 return

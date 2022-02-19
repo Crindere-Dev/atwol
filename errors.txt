@@ -2,10 +2,53 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 109: invalid syntax
-    renpy.movie_cutscene('bago.ogv') with dissolve
-                                         ^
-    
+The label splashscreen is defined twice, at File "game/SCRIPTS/script.rpy", line 17:
+label splashscreen:
+and File "game/script.rpyc", line 17:
+label splashscreen:
+
+
+The label start is defined twice, at File "game/SCRIPTS/script.rpy", line 27:
+label start:
+and File "game/script.rpyc", line 27:
+label start:
+
+
+The label gender is defined twice, at File "game/SCRIPTS/script.rpy", line 37:
+label gender:
+and File "game/script.rpyc", line 37:
+label gender:
+
+
+The label girl is defined twice, at File "game/SCRIPTS/script.rpy", line 42:
+label girl:
+and File "game/script.rpyc", line 42:
+label girl:
+
+
+The label boy is defined twice, at File "game/SCRIPTS/script.rpy", line 54:
+label boy:
+and File "game/script.rpyc", line 54:
+label boy:
+
+
+The label nb is defined twice, at File "game/SCRIPTS/script.rpy", line 69:
+label nb:
+and File "game/script.rpyc", line 69:
+label nb:
+
+
+The label stage2 is defined twice, at File "game/SCRIPTS/script.rpy", line 84:
+label stage2:
+and File "game/script.rpyc", line 84:
+label stage2:
+
+
+The label clothes is defined twice, at File "game/SCRIPTS/script.rpy", line 91:
+    menu clothes:
+and File "game/script.rpyc", line 91:
+    menu clothes:
+
 
 Ren'Py Version: Ren'Py 7.4.10.2178
-Wed Feb 16 18:06:17 2022
+Sat Feb 19 13:42:22 2022
