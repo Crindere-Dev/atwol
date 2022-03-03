@@ -1536,5 +1536,4 @@ init +1 python:
             return self.slot is not None
 
 init python:
-    style.button.hover_sound = "hehe.wav"
     style.button.activate_sound = "haha.wav"
