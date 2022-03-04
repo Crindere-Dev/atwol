@@ -50,7 +50,7 @@ define config.has_sound = True
 define config.has_music = True
 define config.has_voice = True
 
-define config.main_menu = "fuck.mp3"
+
 
 
 ## To allow the user to play a test sound on the sound or voice channel,
@@ -64,7 +64,7 @@ define config.main_menu = "fuck.mp3"
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "fuck.ogg"
 
 
 ## Transitions #################################################################

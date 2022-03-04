@@ -14,6 +14,8 @@ define ava = Character("Ava",
 define you = Character("You",
                     who_color="#fdfcce", callback = callback)
 
+
+
 label splashscreen:
  scene black
 with Pause (1)
@@ -25,6 +27,7 @@ hide splashscreen with dissolve
 return
 
 label start:
+
  scene black
 
  "You wake up and lazily get out of bed."
