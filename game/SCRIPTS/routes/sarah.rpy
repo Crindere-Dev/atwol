@@ -1,4 +1,6 @@
 label sarahroute:
-    scene black
-    "ass"
+    scene bg locker
+    show avanorm1
+
+    ava "sorry bro"
     

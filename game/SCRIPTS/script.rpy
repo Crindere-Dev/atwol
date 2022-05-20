@@ -27,6 +27,7 @@ hide splashscreen with dissolve
 return
 
 label start:
+ stop music
 
  scene black
 
