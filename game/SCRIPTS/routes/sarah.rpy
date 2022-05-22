@@ -1,6 +1,6 @@
 label sarahroute:
     scene bg locker
-    show sarahsmile 
+    show sarahnorm
     q "Hey!"
     "A voice called out, a very annoying one, in fact. "
 

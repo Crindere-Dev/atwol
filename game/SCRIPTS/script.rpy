@@ -8,6 +8,7 @@ default Herself = "Herself"
 default herself = "herself"
 default sarah = False
 default alex = False
+image sarahnorm = "sarahnormal.png"
 
 define a = Character("Ava",
                     who_color="#e7e6ff", callback = callback)
@@ -115,6 +116,7 @@ scene bg bus with dissolve
 "You twist and turn, your bag flying in your hand."
 "You barely make it to the bus..."
 "You gasp for air as you try to find a seat on the full bus. "
+
 "You sit down at a window seat and plug in your headphones as the bus heads to school."
 
 scene black with dissolve
