@@ -2,9 +2,10 @@
 errors listed below, and try again.
 
 
-File "game/SCRIPTS/routes/sarah.rpy", line 3: end of line expected.
-    show avanorm1.png
-                 ^
+File "game/SCRIPTS/script.rpy", line 21: expected 'word' not found.
+    define ? = Character("???",
+           ^
+                        who_color="#a39bec", callback = callback)
 
 Ren'Py Version: Ren'Py 7.4.10.2178
-Fri May 20 18:45:20 2022
+Sun May 22 01:02:20 2022

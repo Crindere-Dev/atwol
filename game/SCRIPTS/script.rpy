@@ -9,11 +9,17 @@ default herself = "herself"
 default sarah = False
 default alex = False
 
-define ava = Character("Ava",
+define a = Character("Ava",
                     who_color="#e7e6ff", callback = callback)
-define you = Character("You",
-                    who_color="#fdfcce", callback = callback)
 
+define s = Character("Sarah",
+                    who_color="#a39bec", callback = callback)
+
+define you = Character("You",
+                    who_color="#a39bec", callback = callback)
+
+define q = Character("???",
+                    who_color="#a39bec", callback = callback)
 
 
 label splashscreen:
@@ -47,12 +53,13 @@ label girl:
     scene bg mirror with dissolve
     "You're a girl?"
     menu:
-        
         "yes":
             $ girl = True
             jump stage2
         "no":
             jump gender
+        
+      
         
 
 label boy:
@@ -104,9 +111,11 @@ label stage2:
 "Oh shit! You’re late!"
 "You grab your bag from the other side of the room and bolt out of your bedroom doorway and through your front door."
 scene bg bus with dissolve
-"You run down your street, trying to be quick as you can to get a seat on the bus. You twist and turn, your bag flying in your hand."
+"You run down your street, trying to be quick as you can to get a seat on the bus."
+"You twist and turn, your bag flying in your hand."
 "You barely make it to the bus..."
-"You gasp for air as you try to find a seat on the full bus. You sit down at a window seat and plug in your headphones as the bus heads to school."
+"You gasp for air as you try to find a seat on the full bus. "
+"You sit down at a window seat and plug in your headphones as the bus heads to school."
 
 scene black with dissolve
 $ renpy.movie_cutscene('bago.ogv') 

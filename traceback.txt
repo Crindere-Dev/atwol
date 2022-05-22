@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'avanorm1.png'>:
-  File "game/SCRIPTS/routes/sarah.rpy", line 5, in script
-    ava "sorry bro"
-IOError: Couldn't find file 'avanorm1.png'.
+While loading <'Image' u'sarahsmile.png'>:
+  File "game/SCRIPTS/routes/sarah.rpy", line 4, in script
+    q "Hey!"
+IOError: Couldn't find file 'sarahsmile.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/SCRIPTS/routes/sarah.rpy", line 5, in script
-    ava "sorry bro"
+  File "game/SCRIPTS/routes/sarah.rpy", line 4, in script
+    q "Hey!"
   File "renpy/ast.py", line 721, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "renpy/exports.py", line 1417, in say
@@ -62,9 +62,9 @@ Full traceback:
     surf = image.load()
   File "renpy/display/im.py", line 704, in load
     raise e
-IOError: Couldn't find file 'avanorm1.png'.
+IOError: Couldn't find file 'sarahsmile.png'.
 
 Windows-10-10.0.22000
 Ren'Py 7.4.10.2178
 Atwol 1.0
-Fri May 20 18:47:45 2022
+Sun May 22 01:07:17 2022

@@ -65,7 +65,7 @@ define config.has_voice = True
 ## game, until it is stopped or another file is played.
 
 define config.main_menu_music = "no_drums.ogg"
-
+define config.game_menu_music = "cool_menu.ogg"
 
 ## Transitions #################################################################
 ##
@@ -92,6 +92,10 @@ define config.after_load_transition = dissolve
 ## Used when entering the main menu after the game has ended.
 
 define config.end_game_transition = dissolve 
+
+##################################sex nope uuuh cursor bro
+define config.mouse = { 'default' : [ ('gui/curse.gif', 0, 0)] }
+
 
 
 ## A variable to set the transition used when the game starts does not exist.

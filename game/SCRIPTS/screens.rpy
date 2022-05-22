@@ -316,7 +316,7 @@ screen navigation():
 
         textbutton _("Load") action ShowMenu("load")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton _("Options") action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -349,6 +349,7 @@ style navigation_button:
 
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
+    outlines [ (absolute(3), "#ffffff", absolute(0), absolute(0)) ]
 
 
 ## Main Menu screen ############################################################
@@ -1536,4 +1537,5 @@ init +1 python:
             return self.slot is not None
 
 init python:
-    style.button.activate_sound = "haha.wav"
+    style.button.activate_sound = "penis.wav"
+    style.button.hover_sound = "dick.wav"
