@@ -8,19 +8,19 @@ default Herself = "Herself"
 default herself = "herself"
 default sarah = False
 default alex = False
-image sarahnorm = "sarahnormal.png"
+
 
 define a = Character("Ava",
                     who_color="#e7e6ff", callback = callback)
 
 define s = Character("Sarah",
-                    who_color="#a39bec", callback = callback)
+                    who_color="#a39bec", who_outlines=[ (3, "#ffffff") ],  callback = callback)
 
 define you = Character("You",
-                    who_color="#a39bec", callback = callback)
+                    who_color="#a39bec", who_outlines=[ (3, "#fff") ],  callback = callback)
 
 define q = Character("???",
-                    who_color="#a39bec", callback = callback)
+                    who_color="#a39bec", who_outlines=[ (3, "#ffFF") ],  callback = callback, )
 
 
 label splashscreen:
