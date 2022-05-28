@@ -34,6 +34,8 @@ hide splashscreen with dissolve
 return
 
 label start:
+ $ spoints = 0
+ 
  stop music
 
  scene black
@@ -52,46 +54,37 @@ call screen gender with dissolve
 
 label girl:
     scene bg mirror with dissolve
-    "You're a girl?"
-    menu:
-        "yes":
-            $ girl = True
-            jump stage2
-        "no":
-            jump gender
+call screen confirm(message="You're a girl??", yes_action=Return(), no_action=Jump("gender")) with dissolve
+
         
       
         
 
 label boy:
-    "You're a boy?"
-    menu:
-        
-        "yes":
-            $ Her = "His"
-            $ her = "his"
-            $ She = "He"
-            $ she = "he"
-            $ Herself = "Himself"
-            $ herself = "himself"
-            jump stage2
-        "no":
-            jump gender
+
+call screen confirm(message="You're a boy?", yes_action=Return(), no_action=Jump("gender")) with dissolve
+
+$ Her = "His"
+$ her = "his"
+$ She = "He"
+$ she = "he"
+$ Herself = "Himself"
+$ herself = "himself"
+jump stage2
 
 label nb:
-    "You're non binary?"
-    menu:
-        
-        "yes":
-            $ Her = "Them"
-            $ her = "them"
-            $ She = "They"
-            $ she = "they"
-            $ Herself = "Themself"
-            $ herself = "themself"
-            jump stage2
-        "no":
-            jump gender
+call screen confirm(message="You're non binary?", yes_action=Return(), no_action=Jump("gender")) with dissolve
+
+$ Her = "Them"
+$ her = "them"
+$ She = "They"
+$ she = "they"
+$ Herself = "Themself"
+$ herself = "themself"
+jump stage2
+
+
+
 
 label stage2:
     scene bg mirror with dissolve

@@ -15,6 +15,9 @@ screen gender:
         hotspot (674, 80, 520, 856)  hovered ShowTransient ("boyl_hover") unhovered Hide("boyl_hover") clicked Jump("boy")
         hotspot (1244, 70, 575, 917) hovered ShowTransient ("nbl_hover") unhovered Hide("nbl_hover") clicked Jump("nb")
 
+
+
+
 screen input:
 
     window:
@@ -25,3 +28,4 @@ screen input:
         input id "input" xalign 0.5 yalign 0.5
 
     use quick_menu
+

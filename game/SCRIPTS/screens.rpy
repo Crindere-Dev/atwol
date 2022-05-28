@@ -290,13 +290,10 @@ style quick_button_text:
 ## to other menus, and to start the game.
 
 screen navigation():
-
     vbox:
         style_prefix "navigation"
 
         xalign 15
-       
-
         xpos gui.navigation_xpos
         yalign 0.75
 
@@ -309,7 +306,7 @@ screen navigation():
             textbutton _("New Game") action Start()
 
         else:
-
+        
             textbutton _("History") action ShowMenu("history")
 
             textbutton _("Save") action ShowMenu("save")

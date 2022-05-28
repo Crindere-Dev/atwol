@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/SCRIPTS/routes/sarah.rpy", line 29: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-    "She waved as she left.hide sarahsmile with dissolve
+File "game/SCRIPTS/images.rpy", line 25: expected '=' not found.
+    image sarahblush
+                    ^
 
 Ren'Py Version: Ren'Py 7.4.10.2178
-Sun May 22 14:47:51 2022
+Wed May 25 20:03:44 2022
