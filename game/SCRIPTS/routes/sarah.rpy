@@ -46,7 +46,7 @@ s "Sorry Mrs Gonal, I was distracted by a book this morning."
 s "... Hehe."
 "Sarah stood like a whimpering dog in the cold."
 "{color=#a39bec}Teacher{/color}" "{b}Sigh,{/b}yes of course you were, you always are."
-"{color=#a39bec}Teacher{/color}""This time the punishment is a written apology during your lunch break miss."
+"{color=#a39bec}Teacher{/color}""This time the punishment is a written apology during your lunch break."
 "Maybe you should be selfless for once, do you stand up for Sarah?"
 menu:
     "Stand up for Sarah":
