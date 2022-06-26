@@ -1,3 +1,14 @@
+################################################################################
+## Initialization
+################################################################################
+
+init offset = -1
+
+
+
+
+
+
 init 5:
     style phone_message_vbox:
         xalign 0.5
@@ -7,12 +18,12 @@ init 5:
         xoffset -40
         
     style phone_message_frame:
-        background Solid("#d9398c")
+        background Solid("#6e75f9")
         ypadding 10
         xpadding 10
         
     style phone_message_frame2:
-        background Solid("#78E8A0")
+        background Solid("#a4cdff")
         ypadding 10
         xpadding 10
 

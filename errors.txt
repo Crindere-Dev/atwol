@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/SCRIPTS/images.rpy", line 25: expected '=' not found.
-    image sarahblush
-                    ^
+File "game/SCRIPTS/routes/alex.rpy", line 95: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        call message(")
 
 Ren'Py Version: Ren'Py 7.4.10.2178
-Wed May 25 20:03:44 2022
+Sun Jun 26 11:53:46 2022

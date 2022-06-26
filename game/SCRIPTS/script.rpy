@@ -16,6 +16,9 @@ define a = Character("Ava",
 define s = Character("Sarah",
                     who_color="#a39bec", who_outlines=[ (3, "#ffffff") ],  callback = callback)
 
+define al = Character("Alex",
+                    who_color="#a39bec", who_outlines=[ (3, "#ffffff") ],  callback = callback)
+
 define you = Character("You",
                     who_color="#a39bec", who_outlines=[ (3, "#fff") ],  callback = callback)
 
@@ -35,6 +38,7 @@ return
 
 label start:
  $ spoints = 0
+ $ alpoints = 0
  
  stop music
 

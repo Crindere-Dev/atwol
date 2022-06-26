@@ -37,7 +37,7 @@ scene black with dissolve
 "5mins later..."
 "..."
 "Your Teacher arrives and puts their stuff down, taking a quick look around the classroom to see who is here and who will be in trouble."
-"Sarah arrives a minute late, Your Teacher scolds them for being late."
+"Sarah arrives a minute late, Your Teacher scolds her for being late."
 "{color=#a39bec}Teacher{/color}" "Ugh! Why are you late? You should have been here before me!"
 you "You think to yourself: How is she late?"
 you "She literally went to class before me!"
@@ -68,6 +68,7 @@ menu:
         "Sarah sat down at her desk two in front and one to the left of you."
         "She looked rather happy after being punished. What’s up with that?"
     
+call phone_start
 
 
 # “Sorry (teacher) I was distracted by a book this morning.” Sarah stood like a whimpering dog in the cold. (Teacher) sighed “yes of course you were, you always are. This time the punishment is a written apology during your lunch break miss”
